@@ -1,0 +1,18 @@
+CREATE TABLE roles (role TEXT PRIMARY KEY);
+INSERT INTO roles (role) VALUES ('ADMIN'), ('EMPLOYEE'),('CUSTOMER');
+CREATE TABLE users (id SERIAL PRIMARY KEY,
+                    email TEXT NOT NULL UNIQUE,
+                    password TEXT NOT NULL,
+                    status TEXT NOT NULL,
+                    role TEXT REFERENCES roles (role) ON UPDATE CASCADE NOT NULL);
+
+INSERT INTO users (email, password, status, role) VALUES ('employee@mybank.com','admin','APPROVED','EMPLOYEE');
+
+ select * from roles 
+CREATE TABLE account ( account_no SERIAL PRIMARY KEY,
+                       customer_id int NOT NULL,
+                       balance FLOAT NOT NULL,
+                       CONSTRAINT fk_user_id FOREIGN KEY (customer_id) REFERENCES users (id));
+                      
+                       
+                      select * from account 
