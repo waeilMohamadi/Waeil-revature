@@ -25,10 +25,12 @@ AWS (AMAZON WEBSERVICES)
 
 WORK EXPERIENCES
 -------------------------
-MY EXPERIENCE AT REVATURE  COMPANY WAS THE WHOLE MY EXPERIENCE LIFE I WORKED IN MANY PROJECTS THE MOST TWO PROJECTS I WORKED ON IT WERE 
-@BANK APPLICATION PROJECT
+MY EXPERIENCE AT REVATURE  COMPANY WAS THE WHOLE MY EXPERIENCE LIFE I WORKED IN MANY PROJECTS THE MOST TWO PROJECTS I WORKED ON IT WERE
+
+BANK APPLICATION PROJECT
 ----------------------
-## Description
+  Description
+  --------------
    *The Bank app is a console-based application that simulates banking operations.
    *A customer can apply for an account, view their balance, and make withdrawals and deposits. 
    *An employee can approve or deny accounts and view account balances for their customers.
